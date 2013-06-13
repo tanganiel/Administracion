@@ -17,13 +17,13 @@
 			
 			$resultado = mysql_query("select * from usuario;");
       		?>
-			
-			
+
 	</head>
 	<body align="center">
+		<center>
 		<form name="formulario" method="post" action="manejo_de_datos.php" onSubmit = "return valida_formulario(this);">
 			<div class="cuerpo_formulario">
-				<div class="titulo_formulario">Mantenci&oacute;n de Usuarios</div>
+				<h1><div class="titulo_formulario">Mantenci&oacute;n de Usuarios</div></h1>
 				
 				<div class="linea">
 				<div class="campo">Rut:</div>
@@ -96,7 +96,7 @@
 	<?php
 		if (0 != mysql_num_rows($resultado))
 		{
-		echo("<p align='center'>Tabla de Datos de Usuarios</p>
+		echo("<h1><p align='center'>Tabla de Datos de Usuarios</p></h1>
 		</br>
 		<table border='1' class='table-condensed table-hover table-striped'>
 		<tr bgcolor='#242E70'>
@@ -137,5 +137,6 @@
 		echo("</table>");
 		}
 	?>
+	</center>
 	</body>
 </html>
