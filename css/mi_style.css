@@ -1,0 +1,103 @@
+
+			.cuerpo_formulario
+			{
+				margin-top:10px;
+				margin-left:10px;
+				width:420px;
+				height:560px;
+				background-color:white;
+				border: 2px solid #20950E;
+				box-shadow: 5px 5px 5px #0D5874;
+			}
+
+			.titulo_formulario
+			{
+				width:420px;
+				height:40px;
+				font-size:30px;
+				font-family:Comic Sans, Comic Sans MS;
+				text-align:center;
+				margin-top:20px;
+				margin-bottom:20px;
+				color:#0CB55E;
+			}
+			
+			.linea
+			{
+				width:400px;
+				height:38px;
+				color:#0CB55E;
+			}
+
+			.campo
+			{
+				float:left;
+				width:140px;
+				text-align:right;
+				font-family:Comic Sans, Comic Sans MS;
+			}
+			
+			.texto_ingreso
+			{
+				float:left;
+				margin-left:10px;
+			}
+
+			.ubicacion_boton
+			{	
+				margin-top:20px;
+				margin-left:90px;
+				float:left;
+				width:244px;
+				height:46px;
+			}
+		
+			.espacio_submit
+			{
+				float:left;
+				width:20px;
+				height:45px;
+			}
+			
+			#btn
+			{
+				float:left;								
+			}
+			
+			#txtRut,#txtNombre,#txtApellidoPaterno,
+			#txtApellidoMaterno,#cmbEdad,#txtDireccion,
+			#txtComuna,#txtCiudad,#txtPais,#txtTelefono
+			{
+				width:160px;
+				height:30px;
+				color:#242E70;
+				border: 1px solid #20950E;
+			}
+
+			table
+			{
+				margin-left:10px;
+				margin-bottom:10px;
+				border: 2px solid #20950E;
+				box-shadow: 10px 5px 10px #13677A;
+				font-family: Comic Sans MS;
+			}
+
+			p
+			{
+				color:#20950E;
+				width:300px;
+				height:10px;
+				font-size:20px;
+				font-family:Comic Sans, Comic Sans MS;
+			}
+
+			hr
+			{
+				width:440px;
+			}
+			
+			table:hover, div.cuerpo_formulario:hover
+			{
+				box-shadow: 5px 5px 5px #99CC33;
+			}
